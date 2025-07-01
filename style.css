@@ -192,3 +192,55 @@ html {
   text-align: center;
   display: block;
 }
+
+/* Bottom slogan */
+.bottom-slogan-container {
+  background-color: #c4c4c40f;
+  padding: 3rem 0;
+}
+
+.bottom-slogan {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bottom-slogan__tag {
+  color: var(--gray-100);
+  font-size: 1.8rem;
+}
+
+.bottom-slogan__text {
+  color: var(--primary-color);
+  font-size: 1.8rem;
+  line-height: 2.7rem;
+  margin-top: 1.5rem;
+  font-weight: 600;
+}
+
+.bottom-slogan__cta {
+  width: 13.5rem;
+  height: 3.8rem;
+  background: var(--primary-color);
+  display: block;
+  font-size: 1rem;
+  color: var(--white);
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  margin-top: 1.5rem;
+  transition: filter 250ms;
+}
+
+.bottom-slogan__cta:hover {
+  filter: brightness(1.2);
+}
+
+.bottom-slogan__image {
+  margin-top: 4.8rem;
+  max-width: 23.9rem;
+}
+
+/* Footer */
