@@ -63,3 +63,58 @@ html {
   align-items: center;
   border-radius: 5px;
 }
+
+/* Presentation */
+.presentation {
+  margin-top: 6.8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.presentation__description-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.presentation__title {
+  font-size: 2rem;
+  color: var(--primary-color);
+  font-weight: 600;
+  line-height: 3rem;
+  text-align: center;
+}
+
+.presentation__text {
+  font-size: 1.4rem;
+  line-height: 2.1rem;
+  color: var(--gray-200);
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.presentation__cta {
+  background-color: var(--primary-color);
+  font-size: 1.4rem;
+  line-height: 2.1rem;
+  color: var(--white);
+  width: 22.5rem;
+  height: 5.7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  border-radius: 8px;
+  margin-top: 4rem;
+  transition: filter 250ms;
+}
+
+.presentation__cta:hover {
+  filter: brightness(1.2);
+}
+
+.presentation__image {
+  margin-top: 4rem;
+  max-width: 26.2rem;
+}
