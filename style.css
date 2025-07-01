@@ -16,3 +16,50 @@
 body {
   font-family: 'Poppins', sans-serif;
 }
+
+html {
+  font-size: 62.5%;
+}
+
+.header,
+.presentation,
+.about-us,
+.services,
+.bottom-slogan,
+.footer {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 3rem;
+}
+
+.about-us,
+.services,
+.bottom-slogan-container,
+.footer {
+  margin-top: 8rem;
+}
+
+/* Header */
+.header {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo {
+  width: 11.6rem;
+}
+
+.header__cta {
+  text-decoration: none;
+  border: 2px solid var(--primary-color);
+  color: var(--primary-color);
+  width: 13rem;
+  height: 3.2rem;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
