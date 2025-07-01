@@ -159,3 +159,36 @@ html {
   margin-top: 5rem;
   max-width: 27.4rem;
 }
+
+/* Services */
+.services__tag {
+  font-size: 1.8rem;
+  color: var(--gray-100);
+  display: block;
+  font-weight: 600;
+  text-align: center;
+}
+
+.services__title {
+  font-size: 2rem;
+  line-height: 3rem;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 3rem;
+  color: var(--black);
+}
+
+.services__item {
+  margin-top: 4rem;
+}
+
+.services__image-item {
+  display: block;
+  margin: 0 auto 2rem auto;
+  width: 6.6rem;
+}
+
+.services__description-item {
+  text-align: center;
+  display: block;
+}
