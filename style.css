@@ -382,3 +382,72 @@ html {
     max-width: 43.1rem;
   }
 }
+
+@media (min-width: 1200px) {
+  /* Presentation */
+  .presentation__title {
+    font-size: 3.6rem;
+    line-height: 5.5rem;
+  }
+
+  .presentation__text {
+    font-size: 1.8rem;
+    line-height: 2.7rem;
+  }
+
+  .presentation__image {
+    max-width: 62rem;
+  }
+
+  /* About us */
+  .about-us__tag {
+    font-size: 2.4rem;
+  }
+
+  .about-us__title {
+    font-size: 3.6rem;
+    line-height: 5.5rem;
+  }
+
+  .about-us__text {
+    font-size: 1.8rem;
+    line-height: 2.7rem;
+  }
+
+  .about-us__image {
+    max-width: 55.8rem;
+  }
+
+  /* Services */
+  .services__tag {
+    font-size: 2.4rem;
+  }
+
+  .services__title {
+    font-size: 3.6rem;
+    line-height: 5.5rem;
+  }
+
+  .services__image-item {
+    width: 10rem;
+  }
+
+  /* Bottom slogan */
+  .bottom-slogan__description-container {
+    margin-right: 7.2rem;
+  }
+
+  .bottom-slogan__tag {
+    font-size: 2.4rem;
+  }
+
+  .bottom-slogan__text {
+    font-size: 3.6rem;
+    line-height: 5.5rem;
+  }
+
+  /* Footer */
+  .footer__text {
+    font-size: 1.6rem;
+  }
+}
