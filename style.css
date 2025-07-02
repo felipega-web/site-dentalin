@@ -346,3 +346,39 @@ html {
     margin-top: 0;
   }
 }
+
+@media (min-width: 1024px) {
+  /* Global */
+  .about-us,
+  .services,
+  .bottom-slogan-container,
+  .footer {
+    margin-top: 15rem;
+  }
+
+  /* Header */
+  .header__logo {
+    width: 18.1rem;
+  }
+
+  .header__cta {
+    width: 18.3rem;
+    height: 4.5rem;
+    font-size: 1.4rem;
+  }
+
+  /* Presentation */
+  .presentation__image {
+    max-width: 42rem;
+  }
+
+  /* About us */
+  .about-us__image {
+    max-width: 40rem;
+  }
+
+  /* Bottom slogan */
+  .bottom-slogan__image {
+    max-width: 43.1rem;
+  }
+}
