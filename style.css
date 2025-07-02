@@ -262,12 +262,14 @@ html {
 }
 
 @media (min-width: 768px) {
+  /* Presentation */
   .presentation {
     flex-direction: row;
   }
 
   .presentation__description-container {
     align-items: flex-start;
+    margin-right: 7.2rem;
   }
 
   .presentation__title {
@@ -281,6 +283,33 @@ html {
   }
 
   .presentation__image {
+    margin-top: 0;
+  }
+
+  /* About us */
+  .about-us {
+    flex-direction: row;
+  }
+
+  .about-us__description-container {
+    margin-right: 9rem;
+  }
+
+  .about-us__tag {
+    text-align: left;
+  }
+
+  .about-us__title {
+    text-align: left;
+    font-size: 2.6rem;
+    line-height: 3.6rem;
+  }
+
+  .about-us__text {
+    text-align: left;
+  }
+
+  .about-us__image {
     margin-top: 0;
   }
 }
