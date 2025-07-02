@@ -260,3 +260,27 @@ html {
   color: var(--gray-200);
   margin-top: 3.2rem;
 }
+
+@media (min-width: 768px) {
+  .presentation {
+    flex-direction: row;
+  }
+
+  .presentation__description-container {
+    align-items: flex-start;
+  }
+
+  .presentation__title {
+    text-align: left;
+    font-size: 2.6rem;
+    line-height: 3.6rem;
+  }
+
+  .presentation__text {
+    text-align: left;
+  }
+
+  .presentation__image {
+    margin-top: 0;
+  }
+}
