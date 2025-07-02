@@ -327,4 +327,22 @@ html {
   .services__item {
     width: 100%;
   }
+
+  /* Bottom slogan */
+  .bottom-slogan-container {
+    padding: 0;
+  }
+
+  .bottom-slogan {
+    flex-direction: row;
+  }
+
+  .bottom-slogan__text {
+    font-size: 2.6rem;
+    line-height: 3.6rem;
+  }
+
+  .bottom-slogan__image {
+    margin-top: 0;
+  }
 }
